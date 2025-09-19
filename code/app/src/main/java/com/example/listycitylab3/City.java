@@ -13,11 +13,9 @@ public class City implements Serializable {
         this.province = province;
     }
 
-    // Getters
     public String getName() { return name; }
     public String getProvince() { return province; }
 
-    // Setters (required by the lab tip: allow editing properties)
     public void setName(String name) { this.name = name; }
     public void setProvince(String province) { this.province = province; }
 }
